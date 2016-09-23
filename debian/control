@@ -2,7 +2,11 @@ Source: python-pycronscript
 Section: python
 Priority: extra
 Maintainer: Greg Harris <gharris@angrylogic.net>
-Build-Depends: debhelper (>= 8.0.0), dh-python, python-all (>= 2.6.6-3~)
+Build-Depends: 
+  debhelper (>= 8.0.0),
+  dh-python,
+  python-all (>= 2.6.6-3~),
+  python-lockfile
 Standards-Version: 3.9.4
 Homepage: https://github.com/jjneely/pycronscript
 Vcs-Git: git@github.com:jjneely/pycronscript.git
